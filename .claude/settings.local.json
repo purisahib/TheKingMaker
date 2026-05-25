@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 /tmp/shift_chapters.py)",
+      "Bash(grep \"^अध्याय\" /home/puri/Desktop/MyStories/TheKingMaker/सीजन/सीजन_2_वीर_का_उदय.md)",
+      "Read(//tmp/**)",
+      "Bash(sed -i 's/अरुणपाद/निशीथ/g' अध्याय_033.md)",
+      "Bash(sed -i \"s/'यह — आचार्य निशीथ नहीं।'/'यह — आचार्य निशीथ।'/g\" अध्याय_033.md)",
+      "Bash(sed -i \"s/'पर — कोई — और।'/'गुरु जी का — एक — पच्चीस वर्ष पुराना — मित्र।'/g\" अध्याय_033.md)",
+      "Bash(grep -v \":0$\")"
+    ]
+  }
+}
