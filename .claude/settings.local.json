@@ -7,7 +7,10 @@
       "Bash(sed -i 's/अरुणपाद/निशीथ/g' अध्याय_033.md)",
       "Bash(sed -i \"s/'यह — आचार्य निशीथ नहीं।'/'यह — आचार्य निशीथ।'/g\" अध्याय_033.md)",
       "Bash(sed -i \"s/'पर — कोई — और।'/'गुरु जी का — एक — पच्चीस वर्ष पुराना — मित्र।'/g\" अध्याय_033.md)",
-      "Bash(grep -v \":0$\")"
+      "Bash(grep -v \":0$\")",
+      "PowerShell($content = Get-Content \"c:\\\\purijii\\\\TheKingMaker\\\\अध्याय\\\\अध्याय_026.md\" -Raw -Encoding UTF8; $words = \\($content -split '\\\\s+' | Where-Object {$_ -ne ''}\\).Count; Write-Output \"Words: $words\")",
+      "PowerShell($content = Get-Content \"c:\\\\purijii\\\\TheKingMaker\\\\अध्याय\\\\अध्याय_027.md\" -Raw -Encoding UTF8; $words = \\($content -split '\\\\s+' | Where-Object {$_ -ne ''}\\).Count; Write-Output \"Words: $words\")",
+      "PowerShell($content = Get-Content \"c:\\\\purijii\\\\TheKingMaker\\\\अध्याय\\\\अध्याय_028.md\" -Raw -Encoding UTF8; $words = \\($content -split '\\\\s+' | Where-Object {$_ -ne ''}\\).Count; Write-Output \"Words: $words\")"
     ]
   }
 }
