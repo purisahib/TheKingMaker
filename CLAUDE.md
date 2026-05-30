@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 यह block + `Writing-Rules.md` (आधिकारिक नियम पुस्तिका, 13 नियम 0-12, **सर्वोच्च दस्तावेज**) नीचे के सभी पुराने format/scope/state/craft निर्देशों पर भारी पड़ते हैं। कहीं टकराव हो तो यही माना जाएगा।
 
-1. **कहानी:** वही — "राजा बनाने वाला / The King Maker" (नायक रुद्र प्रताप वर्मन)। पात्र, लोक, Power System, Hero Arc — सब नीचे दिए अनुसार बरक़रार।
+1. **कहानी:** वही — "परछाइयों का सम्राट" (नायक रुद्र प्रताप वर्मन)। पात्र, लोक, Power System, Hero Arc — सब नीचे दिए अनुसार बरक़रार।
 2. **लेखन-नियम (canonical):** `Writing-Rules.md` की 13-नियम पुस्तिका (नियम 0-12) हर अध्याय पर अनिवार्य। (वहाँ के शिव/सती/दक्ष/नन्दी सिर्फ़ शैली-उदाहरण हैं — हमारी कहानी रुद्र की है।)
 3. **स्कोप:** 2,520 अध्याय = **360 खण्ड × 7** (खण्ड = Arc, नियम 3)। सीजन की परत हटी — सीधी शृंखला खण्ड 1 → खण्ड 360। खण्ड N = अध्याय (7N−6) से (7N)।
 4. **शुरुआत:** `अध्याय/` खाली है — **अध्याय 1 से नए सिरे**। पुराना "145 लिखे जा चुके" record void। फ़ाइल-नाम `अध्याय_001.md` (zero-pad ठीक है, sorting के लिए)।
@@ -22,7 +22,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a creative writing project — a long-form epic novel titled **"The Rise of Samrat: The King Maker (सम्राट का उदय: राजा बनाने वाला)"**, written in pure Hindi. There is no software codebase; the repository contains the story brief, character sheet, season outlines, and generated story pages.
+This is a creative writing project — a long-form epic novel titled **"परछाइयों का सम्राट"**, written in pure Hindi. There is no software codebase; the repository contains the story brief, character sheet, season outlines, and generated story pages.
 
 ## Repository Layout
 
@@ -319,7 +319,7 @@ Same template (cold open → setup → reveal → Krursen-cut → hook) **3 chap
 
 ## Hero Arc (महत्वपूर्ण — कहानी का **central theme**)
 
-### कहानी के नाम का अर्थ: **"The King Maker / राजा बनाने वाला"**
+### कहानी के नाम का अर्थ: **"परछाइयों का सम्राट"**
 
 रुद्र **स्वयं राजा नहीं बनता** — वो **कई राजाओं को गद्दी पर बिठाता है।** यह पूरी ~2520-अध्याय यात्रा का emotional climax और title का अर्थ है। फ़ेज़ 12 का अंत रुद्र को सिंहासन स्वीकारते हुए नहीं दिखाता — वो विजय के बाद कहता है **"मैं राजा नहीं, मैं राजा बनाने वाला हूँ।"**
 
