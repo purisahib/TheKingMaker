@@ -56,7 +56,20 @@
       "Bash(awk '{print NF}' \"c:\\\\purijii\\\\TheKingMaker\\\\अध्याय\\\\अध्याय_013.md\")",
       "Bash(awk '{sum+=$1} END {print \"003 FINAL:\", sum}')",
       "Bash(awk '{sum+=$1} END {print \"004 FINAL:\", sum}')",
-      "Bash(awk '{sum+=$1} END {print \"005 FINAL:\", sum}')"
+      "Bash(awk '{sum+=$1} END {print \"005 FINAL:\", sum}')",
+      "Bash(sed -n '155,162p' अध्याय_017.md)",
+      "Bash(sed -n '87,94p' अध्याय_027.md)",
+      "Bash(sed -n '439,446p' अध्याय_031.md)",
+      "Bash(sed -n '105,112p' अध्याय_032.md)",
+      "Bash(sed -n '154,161p' अध्याय_032.md)",
+      "Bash(awk '{print NF}' \"c:/purijii/TheKingMaker/अध्याय/अध्याय_036.md\")",
+      "Bash(awk '{print NF}' \"c:/purijii/TheKingMaker/अध्याय/अध्याय_037.md\")",
+      "Bash(ls /mnt/c/purijii/TheKingMaker/अध्याय/ | grep \"038\\\\|037\\\\|036\")",
+      "Read(//mnt/c/purijii/TheKingMaker/**)",
+      "PowerShell($f = \"c:\\\\purijii\\\\TheKingMaker\\\\अध्याय\\\\अध्याय_038.md\"; \\(Get-Content $f -Encoding UTF8\\) -join \" \" -split '\\\\s+' | Where-Object { $_ -ne \"\" } | Measure-Object | Select-Object -ExpandProperty Count)",
+      "Bash(awk '{print NF}' \"c:/purijii/TheKingMaker/अध्याय/अध्याय_038.md\")",
+      "Bash(awk '{print NF}' \"c:/purijii/TheKingMaker/अध्याय/अध्याय_039.md\")",
+      "Bash(awk '{print NF}' \"c:/purijii/TheKingMaker/अध्याय/अध्याय_040.md\")"
     ]
   }
 }
