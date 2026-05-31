@@ -33,16 +33,18 @@ This is a creative writing project — a long-form epic novel titled **"पर�
 - `आर्क-रोडमैप.md` — **संरचना की आधिकारिक फ़ाइल** (2026-05-22)। पूरी कथा का 12-फ़ेज़ नक़्शा और **सभी 360 खण्ड के नाम + beats**; फ़ेज़ 1 (खण्ड 1-30) विस्तृत; खण्ड 1 का 7-अध्याय breakdown। फ़ेज़ 2-12 एक-पंक्ति beats में — कथा पास आने पर हर खण्ड को 7-अध्याय breakdown में expand करना। नया अध्याय लिखने से पहले यहाँ उस खण्ड की योजना देखो।
 - `अध्याय-योजना.md` — **chapter-level outline** (हर खण्ड के 7 अध्यायों का एक-पंक्ति विवरण)। सभी 2,520 अध्यायों (फ़ेज़ 1-12, खण्ड 1-360) की योजना तैयार (2026-05-23)। कोई अध्याय लिखने से ठीक पहले यहाँ उस अध्याय का बिंदु देखो, फिर उसे 3000-5000 शब्द में expand करो।
 - `List of Characters.txt` — सभी पात्रों के पूरे नाम, रूप-रंग, स्वभाव, पृष्ठभूमि, संबंध। **नया पात्र आए तो यहाँ update करें।**
-- `फ़ेज़/` — 12 detailed phase planning files (`फ़ेज़_01_*.md` … `फ़ेज़_12_*.md`), हर फ़ेज़ में 30 खण्ड के beats, villain arc, power progression, हार-tracker, King Maker moments। expand करते समय reference।
-- `अध्याय/` — actual written story pages (`अध्याय_NNN.md`), numbered 001 through 2520. अभी खाली — लिखाई 001 से शुरू।
+- `फ़ेज़/` — detailed phase planning files (`फ़ेज़_01_*.md` … `फ़ेज़_12_*.md`), हर फ़ेज़ में 30 खण्ड के beats, villain arc, power progression, हार-tracker, King Maker moments। expand करते समय reference। (अभी फ़ेज़ 01-07 और 11 उपलब्ध; फ़ेज़ 08, 09, 10, 12 अभी नहीं बने।)
+- `अध्याय/` — actual written story pages (`अध्याय_NNN.md`), numbered 001 through 2520. अभी कोई chapter file नहीं — लिखाई `अध्याय_001.md` से शुरू। (फ़ोल्डर में दो misplaced non-chapter items हैं जो ignore करने योग्य हैं।)
 - `Example/` — reference chapters (`Chapter 1` … `Chapter 7`) from a separate story, kept as a stylistic/pacing example of how a novel-format episode reads. Not part of this story's continuity — do not treat its characters or events as canon.
 - `MyComment` — user's scratch notes.
 
-## ⚠️ Current Story State (2026-05-24)
+## ⚠️ Current Story State (2026-05-30)
 
-**`अध्याय/` में अभी तक 20 अध्याय लिखे जा चुके हैं — `अध्याय_001.md` से `अध्याय_020.md`।** पुराना "145 लिखे जा चुके" record void कर दिया गया (वह actual file नहीं, सिर्फ़ planning था)।
+**`अध्याय/` में अभी कोई chapter file नहीं है।** पहला अध्याय लिखा जाना बाकी है। (पुराने "20 लिखे" और "145 लिखे" दोनों records void — actual files कभी commit नहीं हुईं।)
 
-- नया अध्याय लिखने से पहले: `अध्याय/` में सबसे बड़ा नंबर देखो, अगला लिखो। अगला = `अध्याय_021.md`।
+**नोट:** `अध्याय/` के अंदर दो items हैं (`फ़ेज़_01_अंधकार_का_जन्म`, `फ़ेज़_02_वीर_का_उदय`) — ये chapter files नहीं हैं; इन्हें count मत करो। नया अध्याय = `अध्याय_001.md` से शुरू।
+
+- नया अध्याय लिखने से पहले: `अध्याय/` में `अध्याय_NNN.md` pattern की files देखो, सबसे बड़ा नंबर पहचानो, उसके बाद वाला लिखो। **अभी अगला = `अध्याय_001.md`।**
 - कथा-canon और roadmap अब भी रुद्र King Maker का है — beats के लिए `आर्क-रोडमैप.md` (खण्ड-level) और `अध्याय-योजना.md` (अध्याय-level), पात्रों के लिए `List of Characters.txt` देखो।
 - नीचे "### अद्यतन Core Characters / नये पात्र / नये Active Villains" वाली सूची **भविष्य की roadmap** है (विवाह, दादा जी की मृत्यु, सूर्यनाथ, स्वर्ण-ऋषि आदि अभी घटित नहीं हुए) — इसे "लिखी जा चुकी कथा" न समझें।
 - **Format / scope / start** सब ऊपर के "लेखन-Regime (2026-05-21)" block से तय होते हैं।
